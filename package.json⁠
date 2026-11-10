@@ -1,0 +1,31 @@
+{
+  "name": "@calopic/desktop-commander",
+  "version": "1.0.0",
+  "description": "The Ultimate Open-Source Model Context Protocol (MCP) Server for Native Desktop & Workspace Automation. Powered by Calopic (https://calopic.top).",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "desktop-commander": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "calopic",
+    "desktop-automation",
+    "ai-agent",
+    "claude-desktop"
+  ],
+  "author": "Elbirath <support@calopic.top>",
+  "license": "MIT",
+  "homepage": "https://calopic.top",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CalopicAI/desktop-commander.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
